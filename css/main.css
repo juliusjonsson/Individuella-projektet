@@ -147,7 +147,7 @@
     }
   }
   
-  
+
 
 
   /*             NEDANFÖR HEADER                      */ 
@@ -198,6 +198,79 @@ body {
 .btn1:hover, .btn2:hover{
   border-color: cyan;
 }
+
+
+/*            FOOTER                    */
+
+
+/*      SLUT PÅ FOOTER          */
+
+
+
+
+/*           CONTACT.HTML              */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  width: 10em;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  border-color: cyan;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin-top: 7%;
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 
 
 /*
