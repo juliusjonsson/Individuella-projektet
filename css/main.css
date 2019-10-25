@@ -56,7 +56,7 @@
     text-decoration: none;
   }
   
-  /* menu */
+  
   
   .header .menu {
     clear: both;
@@ -64,7 +64,7 @@
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon */
+  
   
   .header .menu-icon {
     cursor: pointer;
@@ -102,7 +102,7 @@
     top: -5px;
   }
   
-  /* menu btn */
+  
   
   .header .menu-btn {
     display: none;
@@ -129,7 +129,7 @@
     top: 0;
   }
   
-  /* 48em = 768px */
+  
   
   @media (min-width: 48em) {
     .header li {
@@ -148,10 +148,10 @@
     }
   }
   
+/*             //HEADER             */
 
 
-
-  /*             NEDANFÖR HEADER                      */ 
+  /*             INDEX / BODY                      */ 
 
 html {
   color: #222;
@@ -201,13 +201,16 @@ body {
 }
 
 
+
+/*         //INDEX  / BODY         */
+
 /*           CONTACT           */
 
 * {
   box-sizing: border-box;
 }
 
-/* Style inputs */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -233,14 +236,14 @@ input[type=submit]:hover {
   border-color: cyan;
 }
 
-/* Style the container/contact section */
+
 .container {
   border-radius: 5px;
   background-color: #fff;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
+
 .column {
   float: left;
   text-align: center;
@@ -250,7 +253,7 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -265,7 +268,7 @@ input[type=submit]:hover {
   }
 }
 
-/*          SLUT PÅ CONTACT             */
+/*          //CONTACT             */
 
 
 /*         ABOUT            */
@@ -296,7 +299,10 @@ input[type=submit]:hover {
   text-align: left;
 }
 
-/*     WORK.HTML    */
+/*   //ABOUT     */
+
+
+/*     WORK    */
 
 
 .work-box{
@@ -322,7 +328,7 @@ input[type=submit]:hover {
 }
 
 
-/*         WORK.HTML SLUT             */
+/*         //WORK             */
 
 
 
@@ -368,7 +374,7 @@ input[type=submit]:hover {
 
 
 
-/*             CLIENTS SLUT                */
+/*             //CLIENTS                */
 
 
 /*
