@@ -43,8 +43,8 @@
   }
   
   .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: #333;
+  .header .menu-btn:hover, .active {
+    background-color: #4caf50;
   }
   
   .header .logo {
