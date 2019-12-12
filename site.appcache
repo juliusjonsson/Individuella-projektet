@@ -1,0 +1,26 @@
+CACHE MANIFEST
+
+# Version 2.0
+
+# Explicit cachade entiteter
+index.html
+work.html
+partners.html
+about.html
+contact.html
+css/main.css
+js/script.js
+
+
+# Extra resurser till cachen
+CACHE:
+img/bakgrund.jpg
+img/coding1.jpg
+img/coding2.jpg
+img/hardware1.jpg
+img/hardware2.jpg
+
+
+# Filer från nätverket om de inte är cachade
+NETWORK:
+*
